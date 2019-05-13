@@ -5,11 +5,7 @@
   FB, IG, Tw, GH: @leoferres
 % LocWeb Workshop, WWW'19\
 	San Francisco, May 13, 2019\
-	\tiny s2019-01-19 09:47:32 -0300 - e:2019-05-06 13:58:56 -0400\normalsize
-
-# Warning...
-
-![](horse.jpg)
+	\tiny s2019-01-19 09:47:32 -0300 - e:2019-05-13 13:31:33 -0400\normalsize
 
 # Introduction
 
@@ -43,7 +39,7 @@ resulted in
 
 - Santiago de Chile, founded in 1541, ~7M people, ~840Km2
 
-![SCL panorama (pic by \texttt{\url{https://bit.ly/2zkSgl5}})](https://www.hellomagazine.com/imagenes/travel/2017121444802/top-10-things-to-do-santiago-chile/0-226-737/1-Santiago-Chile-t.jpg){
+![SCL panorama (pic by \texttt{\url{https://bit.ly/2zkSgl5}})](panorama.jpg){
 width=93% }
 
 # Prelims: Geo & Towers
@@ -159,9 +155,9 @@ height=260px }
 BUT...
 
  - Should policies be implemented?
-    - small, incremental,
-    - A/B testing when possible,
-    - involve social scientists and policy makers early on.
+	- small, incremental,
+	- A/B testing when possible,
+	- involve social scientists and policy makers early on.
 
 In any case,
 
@@ -251,7 +247,7 @@ where
   the number of people (10%).
 
   - More people out (at night, in parks) make it safer for other
-    people
+	people
 
 # XDR: Malls
 
@@ -297,7 +293,7 @@ segregation.
 
 # XDR: Malls: HDI Segregation
 
-![Results of the social mixing index, using the segregation model for observed and null models (visiting only nearby malls)](hdigravity.jpeg){
+![Results of the social mixing index, using the segregation model for observed and null models (visiting only nearby malls)](hdigravity.jpg){
 width=75% }
 
 # Take out and a question
@@ -350,7 +346,59 @@ percentile $q$.
  - A positive effect of social mixing in choosing what mall to visit
    (at equal $D$ and $M$, people prefer diverse malls).
 
-# DPI
+# DPI: The Urban Life of Mobile Applications
+
+- Graells-Garrido, E., Caro, D., Miranda, O., Schifanella, R., &
+  Peredo, O. F. (2018, April). **The WWW (and an H) of Mobile
+  Application Usage in the City: The What, Where, When, and How**. In
+  Companion of the The Web Conference 2018 on The Web Conference 2018
+  (pp. 1221-1229). (YES! Presented at LocWeb last year! )
+
+  - **Research questions**: \textcolor[rgb]{0.0,0.0,1.0}{How is mobile
+  application usage shaped by the urban context? How is the urban
+  context shaped by mobile application usage?}
+
+# DPI: Urban: Datasets
+
+DPI:
+
+- Labeled app requests,
+- XDR (floating population estimation)
+
+Auxiliary:
+
+- OpenStreetMap (urban infrastructure, POIs),
+- Results from the Mode of Transportation inference paper (labeled
+  towers with mode of transportation)
+
+# DPI: Urban: Hotspots
+
+![](appsroutine.jpg)
+
+# DPI: Urban: Daily Routine
+
+![](appsdaily.jpg){ width=70% }
+
+- some apps constant usag/ day (video, social media), others related
+  to commuting (music, news, transportation)
+
+# DPI: Urban: POIs
+
+Correlation between app usage request rate (y axis) and the
+availability of points of interest (x axis) according to OSM
+![](appspois.jpg){ width=80% }
+
+- Pick your fave! (blue if negative, red if positive, black is
+  nuttin')
+
+# DPI: Urban: Conclusions
+
+- App usage is related with the urban context! When people looks at
+  their phones, the activities they do and the places they are in,
+  outside of the screen, are also relevant
+
+
+# DPI: News: Intro
 
 Some hot off the lab results using DPI:
 
@@ -431,12 +479,6 @@ Secondary:
 - The simplistic assumption that the interest to news media grows
   “linearly” with the level of education is proven wrong
 
-- Age seems to play a relevant role
-
-- Mobile data provide a very valuable and always up-to-date source of
-  information on the features and the needs of the population.
-
-
 # General conclusion
 
 - Unprecedented possibility to do real-time, large-scale and spatially
@@ -459,6 +501,7 @@ Secondary:
 
 # Future work
 
+- How to fight (unknown) biases?
 - How to generalize these models to other cities?
 - How to compare different cities?
 - How to validate results in the absence of ground truth data?
@@ -493,8 +536,6 @@ following:
 - what are the social costs of **not** doing these studies?
 
 # Thank you!
-
-## Come work with us! :) 
 
 ## Collaborators
 
