@@ -5,6 +5,7 @@
   FB, IG, Tw, GH: @leoferres
 % LocWeb Workshop, WWW'19\
 	San Francisco, May 13, 2019\
+	\texttt{https://github.com/leoferres/locweb19}\
 	\tiny s2019-01-19 09:47:32 -0300 - e:2019-05-13 13:31:33 -0400\normalsize
 
 # Introduction
